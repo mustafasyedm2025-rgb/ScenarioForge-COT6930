@@ -1,6 +1,7 @@
 # 🚗 ScenarioForge
 
-**Final Project for COT6930: Generative Intelligence and Software Development Lifecycles** *By Mustafa Syed Mohammed*
+**Final Project for COT6930: Generative Intelligence and Software Development Lifecycles**
+*By Mustafa Syed Mohammed*
 
 ---
 
@@ -9,6 +10,17 @@
 **ScenarioForge** is a Generative AI-powered web application designed to solve a major bottleneck in autonomous vehicle (AV) development: the creation of complex test scenarios.
 
 Instead of manually scripting XML, engineers can use ScenarioForge to type a simple text prompt (e.g., "A pedestrian steps out from behind a parked bus") and generate the corresponding, valid OpenSCENARIO 1.0 file. This project directly enhances the **Testing & Validation** phase of the Software Development Lifecycle (SDLC).
+
+## 📦 Asset Library (Pre-Generated Scenarios)
+
+As part of this project, a downloadable pack of pre-generated, critical edge cases is provided. You can use these files to test any OpenSCENARIO-compatible simulator (like CARLA).
+
+**[Download the Edge Case Pack (ScenarioForge_EdgeCases.zip)](./ScenarioForge_EdgeCases.zip)**
+
+The pack includes:
+* **Aggressive Highway Cut-in:** A vehicle in an adjacent lane performs a sudden, aggressive lane change in front of the ego vehicle.
+* **Obscured Pedestrian Crossing:** A pedestrian emerges from behind a parked vehicle (like a van) into the ego vehicle's path.
+* **Lead Vehicle Tire Blowout:** The vehicle directly in front of the ego vehicle simulates a sudden tire blowout and swerves.
 
 ## 🛠️ Technology Stack
 
@@ -41,3 +53,4 @@ The application's UI is fully functional, and the backend simulates a successful
     ```bash
     streamlit run app.py
     ```
+   
